@@ -1,0 +1,27 @@
+{
+  "name": "diasjulia/phptips",
+  "description": "description",
+  "minimum-stability": "dev",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "julia",
+      "email": "julia@orditi.com"
+    }
+  ],
+  "config": {
+    "vendor-dir": "vendor"
+  },
+  "autoload": {
+    "files": [
+      "source/Config.php"
+    ],
+    "psr-4": {
+      "Source\\": "source/"
+    }
+  },
+  "require": {
+    "league/plates": "v4.0.0-alpha",
+    "coffeecode/datalayer": "1.1.*"
+  }
+}
