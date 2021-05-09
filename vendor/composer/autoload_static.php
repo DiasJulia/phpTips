@@ -15,7 +15,7 @@ class ComposerStaticInit675b4dbd5f641227b8a58520544fd75e
         'bdc465a053da7f7ddb072631f6d41d45' => __DIR__ . '/..' . '/league/plates/src/Extension/LayoutSections/layout-sections.php',
         'afa76803f24616d7599be3b7b0846adc' => __DIR__ . '/..' . '/league/plates/src/Extension/Folders/folders.php',
         '16c5be35e32c6cf916d875518b909210' => __DIR__ . '/..' . '/league/plates/src/Util/util.php',
-        '43d1cabfb4ad3ba7ff57eada1ca5235b' => __DIR__ . '/../..' . '/source/Config.php',
+        '51c87b09188bc53b61d47f3da27adf03' => __DIR__ . '/../..' . '/source/Config.php',
     );
 
     public static $prefixLengthsPsr4 = array (
@@ -29,6 +29,7 @@ class ComposerStaticInit675b4dbd5f641227b8a58520544fd75e
         ),
         'C' => 
         array (
+            'CoffeeCode\\Router\\' => 18,
             'CoffeeCode\\DataLayer\\' => 21,
         ),
     );
@@ -41,6 +42,10 @@ class ComposerStaticInit675b4dbd5f641227b8a58520544fd75e
         'League\\Plates\\' => 
         array (
             0 => __DIR__ . '/..' . '/league/plates/src',
+        ),
+        'CoffeeCode\\Router\\' => 
+        array (
+            0 => __DIR__ . '/..' . '/coffeecode/router/src',
         ),
         'CoffeeCode\\DataLayer\\' => 
         array (
